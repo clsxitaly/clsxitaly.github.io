@@ -370,3 +370,12 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
+
+.img-team {
+    margin-bottom: 5px;
+    width: 130px;
+}
+
+.team {
+    margin-bottom: 5px;
+}
