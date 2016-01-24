@@ -38,7 +38,7 @@ function init() {
     // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
     var mapOptions = {
         // How zoomed in you want the map to start at (always required)
-        zoom: 15,
+        zoom: 14,
 
         // The latitude and longitude to center the map (always required)
         center: new google.maps.LatLng(45.443841, 9.207608), // TAG Calabiana
@@ -174,5 +174,13 @@ function init() {
         position: myLatLng,
         map: map,
         icon: image
+    });
+
+    // InfoWindow
+    var infowindow = new google.maps.InfoWindow({
+        content: '<a href="https://goo.gl/maps/9TS7hecDJDo"><strong>TAG Calabiana</strong><address>via Arcivescovo Calabiana 6,<br/>20139 Milano</address></a>'
+    });
+    beachMarker.addListener('click', function() {
+        infowindow.open(map, beachMarker);
     });
 }
