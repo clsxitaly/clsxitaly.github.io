@@ -41,7 +41,7 @@ function init() {
         zoom: 14,
 
         // The latitude and longitude to center the map (always required)
-        center: new google.maps.LatLng(45.443841, 9.207608), // TAG Calabiana
+        center: new google.maps.LatLng(41.9008553, 12.5010826), // Luiss Enlabs Calabiana
 
         // Disables the default Google Maps UI components
         disableDefaultUI: true,
@@ -169,7 +169,7 @@ function init() {
 
     // Custom Map Marker Icon - Customize the map-marker.png file to customize your icon
     var image = 'img/map-marker.png';
-    var myLatLng = new google.maps.LatLng(45.443841, 9.207608);
+    var myLatLng = new google.maps.LatLng(41.9008553, 12.5010826);
     var beachMarker = new google.maps.Marker({
         position: myLatLng,
         map: map,
@@ -178,7 +178,7 @@ function init() {
 
     // InfoWindow
     var infowindow = new google.maps.InfoWindow({
-        content: '<a href="https://goo.gl/maps/9TS7hecDJDo"><strong>TAG Calabiana</strong><address>via Arcivescovo Calabiana 6,<br/>20139 Milano</address></a>'
+        content: '<a href="https://goo.gl/maps/Pn4VYe4BDNp"><strong>LUISS EnLabs</strong><address>Roma Termini, Via Marsala, 29/h,<br/>00185 Roma</address></a>'
     });
     beachMarker.addListener('click', function() {
         infowindow.open(map, beachMarker);
