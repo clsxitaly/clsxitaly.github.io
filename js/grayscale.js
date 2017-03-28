@@ -38,17 +38,17 @@ function init() {
     // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
     var mapOptions = {
         // How zoomed in you want the map to start at (always required)
-        zoom: 14,
+        zoom: 13,
 
         // The latitude and longitude to center the map (always required)
-        center: new google.maps.LatLng(41.9008553, 12.5010826), // Luiss Enlabs Calabiana
+        center: new google.maps.LatLng(45.4438747, 9.2054192), // Milano
 
         // Disables the default Google Maps UI components
         disableDefaultUI: true,
         scrollwheel: false,
         draggable: false,
 
-        // How you would like to style the map. 
+        // How you would like to style the map.
         // This is where you would paste any style found on Snazzy Maps.
         styles: [{
             "featureType": "water",
@@ -160,27 +160,29 @@ function init() {
         }]
     };
 
-    // Get the HTML DOM element that will contain your map 
+    // Get the HTML DOM element that will contain your map
     // We are using a div with id="map" seen below in the <body>
     var mapElement = document.getElementById('map');
 
-    // Create the Google Map using out element and options defined above
-    var map = new google.maps.Map(mapElement, mapOptions);
+    if(mapElement!==null) {
+      // Create the Google Map using out element and options defined above
+      var map = new google.maps.Map(mapElement, mapOptions);
 
-    // Custom Map Marker Icon - Customize the map-marker.png file to customize your icon
-    var image = 'img/map-marker.png';
-    var myLatLng = new google.maps.LatLng(41.9008553, 12.5010826);
-    var beachMarker = new google.maps.Marker({
-        position: myLatLng,
-        map: map,
-        icon: image
-    });
+      // Custom Map Marker Icon - Customize the map-marker.png file to customize your icon
+      var image = 'img/map-marker.png';
+      var myLatLng = new google.maps.LatLng(45.4438747, 9.2054192);
+      var beachMarker = new google.maps.Marker({
+          position: myLatLng,
+          map: map,
+          icon: image
+      });
 
-    // InfoWindow
-    var infowindow = new google.maps.InfoWindow({
-        content: '<a href="https://goo.gl/maps/Pn4VYe4BDNp"><strong>LUISS EnLabs</strong><address>Roma Termini, Via Marsala, 29/h,<br/>00185 Roma</address></a>'
-    });
-    beachMarker.addListener('click', function() {
-        infowindow.open(map, beachMarker);
-    });
+      // InfoWindow
+      var infowindow = new google.maps.InfoWindow({
+          content: '<a href="https://goo.gl/maps/NE6ti58FNz22"><strong>Talent Garden Milano Calabiana</strong><address>Via Arcivescovo Calabiana N°6,<br/> 20139 Milano</address></a>'
+      });
+      beachMarker.addListener('click', function() {
+          infowindow.open(map, beachMarker);
+      });
+    }
 }
