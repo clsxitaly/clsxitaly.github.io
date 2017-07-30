@@ -38,10 +38,10 @@ function init() {
     // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
     var mapOptions = {
         // How zoomed in you want the map to start at (always required)
-        zoom: 13,
+        zoom: 15,
 
         // The latitude and longitude to center the map (always required)
-        center: new google.maps.LatLng(45.4438747, 9.2054192), // Milano
+        center: new google.maps.LatLng(41.9012576, 12.5037071), // Milano
 
         // Disables the default Google Maps UI components
         disableDefaultUI: true,
@@ -170,7 +170,7 @@ function init() {
 
       // Custom Map Marker Icon - Customize the map-marker.png file to customize your icon
       var image = 'img/map-marker.png';
-      var myLatLng = new google.maps.LatLng(45.4438747, 9.2054192);
+      var myLatLng = new google.maps.LatLng(41.9012576, 12.5037071);
       var beachMarker = new google.maps.Marker({
           position: myLatLng,
           map: map,
@@ -179,7 +179,7 @@ function init() {
 
       // InfoWindow
       var infowindow = new google.maps.InfoWindow({
-          content: '<a href="https://goo.gl/maps/NE6ti58FNz22"><strong>Talent Garden Milano Calabiana</strong><address>Via Arcivescovo Calabiana N°6,<br/> 20139 Milano</address></a>'
+          content: '<a href="https://goo.gl/maps/972BkbaeUZp"><strong>Luiss Enlab</strong><address>Roma Termini, Via Marsala 29/h,<br/> 00185 Roma</address></a>'
       });
       beachMarker.addListener('click', function() {
           infowindow.open(map, beachMarker);
