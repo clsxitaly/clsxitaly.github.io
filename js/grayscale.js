@@ -179,7 +179,7 @@ function init() {
 
       // InfoWindow
       var infowindow = new google.maps.InfoWindow({
-          content: '<a href="https://goo.gl/maps/972BkbaeUZp"><strong>Luiss Enlab</strong><address>Roma Termini, Via Marsala 29/h,<br/> 00185 Roma</address></a>'
+          content: '<a href="https://goo.gl/maps/972BkbaeUZp"><strong>LUISS ENLABS</strong><address>Roma Termini, Via Marsala 29/h,<br/> 00185 Roma</address></a>'
       });
       beachMarker.addListener('click', function() {
           infowindow.open(map, beachMarker);
