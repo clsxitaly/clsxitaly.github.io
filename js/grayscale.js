@@ -179,7 +179,7 @@ function init() {
 
       // InfoWindow
       var infowindow = new google.maps.InfoWindow({
-          content: '<a href="https://goo.gl/maps/972BkbaeUZp"><strong>LUISS ENLABS</strong><address>Roma Termini, Via Marsala 29/h,<br/> 00185 Roma</address></a>'
+          content: '<a href="https://www.google.it/maps/place/Talent+Garden+Calabiana/@45.4441303,9.206279,17z/data=!3m1!4b1!4m5!3m4!1s0x4786c43ba57d572b:0xfa3f2a003eb1a4a0!8m2!3d45.4441266!4d9.2084677"><strong>LUISS ENLABS</strong><address>Roma Termini, Via Marsala 29/h,<br/> 00185 Roma</address></a>'
       });
       beachMarker.addListener('click', function() {
           infowindow.open(map, beachMarker);
