@@ -1,912 +1,504 @@
 <!DOCTYPE html>
 <html lang="it">
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="description" content="CLSxItaly - Community Leadership Summit Italy">
-		<meta name="author" content="Alfredo Morresi">
-		<meta name="google-site-verification" content="YYyWUYbZ_HgingodV1BSAdRddXlo6ph-ULcFTUBvWK8" />
-		<title>CLSxItaly - Community Leadership Summit Italy</title>
-		<!-- Bootstrap Core CSS -->
-		<link href="css/bootstrap.min.css" rel="stylesheet">
-		<!-- Custom CSS -->
-		<link href="css/grayscale.css" rel="stylesheet">
-		<!-- Custom Fonts -->
-		<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-		<link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-		<!--[if lt IE 9]>
-		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-		<![endif]-->
-	</head>
-	<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-		<!-- Navigation -->
-		<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-			<div class="container">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-					<i class="fa fa-bars"></i>
-					</button>
-					<a class="navbar-brand page-scroll" href="#page-top">
-						<!-- <i class="fa fa-play-circle"></i> -->
-						<img src="img/cls_small.png" height="32" alt="" style="display: inline;">  <span class="light">CLSx</span>Italy
-					</a>
-				</div>
-				<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-					<ul class="nav navbar-nav">
-						<!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-						<li class="hidden">
-							<a href="#page-top"></a>
-						</li>
-						<li>
-							<a class="page-scroll" href="#quarta-edizione">4° Edizione</a>
-						</li>
-						<li>
-							<a class="page-scroll" href="#terza-edizione">3° Edizione</a>
-						</li>
-						<li>
-							<a class="page-scroll" href="#seconda-edizione">2° Edizione</a>
-						</li>
-						<li>
-							<a class="page-scroll" href="#prima-edizione">1° Edizione</a>
-						</li>
-						<li>
-							<a class="page-scroll" href="index.html">Registrati - Edizione Roma 2017</a>
-						</li>
-					</ul>
-				</div>
-				<!-- /.navbar-collapse -->
-			</div>
-			<!-- /.container -->
-		</nav>
-		<!-- Intro Header -->
-		<header class="intro">
-			<div class="intro-body">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-8 col-md-offset-2">
-							<h1 class="brand-heading">CLSxItaly </h1>
-							<p class="intro-text">Community Leadership Summit "X" Italy
-							<p/>
-							<p>
-								L'evento italiano per i Community Lover<br/>
-								<!-- Location, Città, Giorno Mese Anno-->
-							</p>
-							<ul class="list-inline">
-								<li>
-									<!--<a href="https://goo.gl/" class="btn btn-default btn-lg">Registrati!</a>-->
-								</li>
-								<li>
-									<!--<a href="https://www.facebook.com/events/" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Evento CLSxItaly</span></a>-->
-								</li>
-							</ul>
-							<p>Guarda <a href="index.html">e registrati all'edizione di Roma 2017</a></p>
-							<a href="#seconda-edizione" class="btn btn-circle page-scroll">
-							<i class="fa fa-angle-double-down animated"></i>
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</header>
+<head>
+    <!-- ========== Meta Tags ========== -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Italian Community Managers - Summit">
+    <meta name="author" content="Alfredo Morresi">
+    <meta name="google-site-verification" content="YYyWUYbZ_HgingodV1BSAdRddXlo6ph-ULcFTUBvWK8" />
+    <!-- ========== Title ========== -->
+    <title>Italian Community Managers - Summit</title>
+    <!-- ========== Favicon Ico ========== -->
+    <link href="img/favicon/apple-touch-icon-57x57.png" rel="apple-touch-icon" sizes="57x57">
+    <link href="img/favicon/apple-touch-icon-60x60.png" rel="apple-touch-icon" sizes="60x60">
+    <link href="img/favicon/apple-touch-icon-72x72.png" rel="apple-touch-icon" sizes="72x72">
+    <link href="img/favicon/apple-touch-icon-76x76.png" rel="apple-touch-icon" sizes="76x76">
+    <link href="img/favicon/apple-touch-icon-114x114.png" rel="apple-touch-icon" sizes="114x114">
+    <link href="img/favicon/apple-touch-icon-120x120.png" rel="apple-touch-icon" sizes="120x120">
+    <link href="img/favicon/apple-touch-icon-144x144.png" rel="apple-touch-icon" sizes="144x144">
+    <link href="img/favicon/apple-touch-icon-152x152.png" rel="apple-touch-icon" sizes="152x152">
+    <link href="img/favicon/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+    <link href="img/favicon/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+    <link href="img/favicon/favicon-96x96.png" rel="icon" sizes="96x96" type="image/png">
+    <link href="img/favicon/favicon-160x160.png" rel="icon" sizes="160x160" type="image/png">
+    <link href="img/favicon/favicon-196x196.png" rel="icon" sizes="196x196" type="image/png">
 
-<section id="quarta-edizione" class="container content-section text-center">
-			<h3>4° Edizione - 25 Novembre 2017 - Roma</h3>
-			<div class="col-lg-6">
-				<h3>Agenda</h3>
-				<table class="table text-left">
-					<tbody>
-						<tr>
-							<th>08:45</th>
-							<td colspan="2"><em>Registrazione</em></td>
-						</tr>
-						<tr>
-							<th>09:30</th>
-							<td>Apertura e presentazioni
-								<br />
-							</td>
-							<td></td>
-						</tr>
-						<tr>
-							<th></th>
-							<td>
-								<b>	Sense of Community: ciò che trasforma un gruppo in una community</b>
-								<br />Parleremo delle più recenti teorie nelle scienze sociali che descrivono quali sono gli elementi essenziali affinché un gruppo di persone, fisico o virtuale, si identifichi e riconosca come una vera community. Teoria e pratica per capire quali sono le leve che permettono ad un community builder di avere successo nel suo lavoro.
-								<br />
-							</td>
-							<td>
-								Speaker:
-								<br /><b><a href="https://twitter.com/rainbowbreeze" target="_blank">Alfredo Morresi</a></b>
-								<br />Google
-							</td>
-						</tr>
-						<tr>
-							<th></th>
-							<td>
-								<b>Come far nascere un movimento e farlo crescere di 4 volte in un anno</b> <br />
-										Come nasce un movimento? E come far crescere e coltivare tale movimento? In trenta minuti la storia di Agile Talks, gruppo di meetup a Roma, che ora conta 320 membri.
-								<br />
-							</td>
-							<td>
-								Speakers:
-								<br /><b><a href="https://twitter.com/omixxam" target="_blank">Massimo Sarti</a></b>
-								<br />Agile Talks
-							</td>
-						</tr>
-						<tr>
-							<th></th>
-							<td>
-								<b>Sani valori e aiuto reciproco: come far germogliare una community imprenditoriale</b> <br />
-										Il vero valore di una community emerge quando la community non è riunita ne online ne offline. I momenti di incontro sono dei community touch points dove si creano connessioni umane ancor più che lavorative ma il posto dove “the magic happens” è al di fuori di quei momenti. Noi di startup grind crediamo fortemente che un un’ecosistema imprenditoriale e di innovazione sano si basi essenzialmente su quelli che sono i nostri valori: HELP EACH OTHER, MAKE FRIENDS e GIVE (before TAKE). L’aiuto reciproco e disinteressato (bandiamo il "do ut des”) tra i membri della nostra community è la leva principale per accendere la miccia dell’innovazione e far crescere l’ecosistema da cui poi tutti potranno trarre beneficio
-								<br />
-							</td>
-							<td>
-								Speaker:
-								<br /><b><a href="https://twitter.com/Magicalex23" target="_blank">Alessandro Petrich</a></b>
-										<br />Startup Grind
-							</td>
-						</tr>
-						<tr>
-							<th></th>
-							<td>
-								<b>Community engagement per Matera 2019</b> <br />
-										L'esperienza della community dalla candidatura ad ECOC 2019 fino al 2020 e oltre: cosa cambia, i gruppi coinvolti, il ruolo del webteam. Cosa abbiamo imparato e cosa proponiamo per i prossimi anni. 
-								<br />
-							</td>
-							<td>
-								Speaker:
-								<br /><b><a href="https://twitter.com/Ida_Leone" target="_blank">Ida Leone</a></b> - <b><a href="https://twitter.com/raffapontra" target="_blank">Raffaella Pontrandolfi</a></b>
-										<br />Fondazione Matera 2019
-							</td>
-						</tr>
-						<tr>
-							<th></th>
-							<td>
-								<b>Diventare un community leader in 10 mosse.</b> <br />
-										Sembra il titolo di un opuscolo dell'autogrill, ma in verità questi sono i "miei" 10 comandamenti del Community leader. Quali sono i passi da fare, come affrontarli? Quali sono le competenze irrinunciabili, quali gli errori da non fare? Un piccolo manuale di sopravvivenza per chi vuole "testardamente" diventare un community leader e non sa da dove iniziare.
-								<br />
-							</td>
-							<td>
-								Speaker:
-								<br /><b><a href="https://twitter.com/ale_fattorini" target="_blank">Alessio Fattorini</a></b>
-										<br />NethServer
-							</td>
-						</tr>
-						
-						<tr>
-							<th>13:00</th>
-							<td><em>Pranzo e Networking offerto dall'organizzazione</em></td>
-							<td></td>
-						</tr>
-						<tr>
-							<th>14:00</th>
-							<td colspan="2">Unconference</td>
-						</tr>
-						<tr>
-							<th>16:00</th>
-							<td>Tavola rotonda:Come far nascere una community e farla crescere, esperienze dall’online e offline</td>
-							<td>
-								Partecipanti: 
-										<br /><b><a href="https://twitter.com/sklivvz" target="_blank">Marco Cecconi</a></b> - skeptics.stackexchange.com
-										<br /><b><a href="https://twitter.com/ioggstream" target="_blank">Roberto Polli</a></b> - Latina LUG
-										<br /><b><a href="https://twitter.com/DigitalYuppies" target="_blank">Tommaso Politano</a></b> - Digital Yuppies
-							</td>
-						</tr>
-						<tr>
-							<th>16:45</th>
-							<td>Closing e Aperitivo di Networking!</td>
-							<td></td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-			<div class="col-lg-6">
-				<div class="col-lg-12">
-					<h3>Team - Roma 2017</h3>
-					<div class="col-lg-12">
-					<div class="col-lg-6">
-						<img class="img-circle img-team" src="img/alfredo.png" alt="Alfredo Morresi">
-						<h4 class="team">Alfredo Morresi</h4>
-						<h5 class="light">Tiramisù lover, Android dev, free software fan. Googler, helping dev communities in Italy and Europe<br/>
-							<a href="https://twitter.com/rainbowbreeze">@rainbowbreeze</a> - <a href="https://www.linkedin.com/in/alfredomorresi">LinkedIn</a>
-						</h5>
-					</div>
-					<div class="col-lg-6">
-						<img class="img-circle img-team" src="img/alessio.png" alt="Alessio Fattorini">
-						<h4 class="team">Alessio Fattorini</h4>
-						<h5 class="light">Prosecco Evangelist, NethServer Community Manager, Open Source Enthusiast, Linux Sysadmin, Dad.<br/>
-							<a href="https://twitter.com/ale_fattorini">@ale_fattorini</a>
-						</h5>
-					</div>
-					</div>
-					<div class="col-lg-12">
-					<div class="col-lg-6">
-						<img class="img-circle img-team" src="img/azzurra.png" alt="Azzurra Ragone">
-						<h4 class="team">Azzurra Ragone</h4>
-						<h5 class="light">Community Specialist, Soccer player, I believe in diversity there is beauty and strength<br/>
-							<a href="https://twitter.com/azzurraragone">@azzurraragone</a>
-						</h5>
-					</div>
-					<div class="col-lg-6">
-						<img class="img-circle img-team" src="img/chiara.png" alt="Chiara Brughera">
-						<h4 class="team">Chiara Brughera</h4>
-						<h5 class="light">Community coordinator at Talent Garden & Girls in Tech Italy community lead<br/>
-							<a href="https://twitter.com/ChiaraBrughera">@ChiaraBrughera</a>
-						</h5>
-					</div>
-				</div>
-				<div class="col-lg-12">
-					<div class="col-lg-6">
-						<img class="img-circle img-team" src="img/enzo.png" alt="Innocenzo Sansone">
-						<h4 class="team">Innocenzo Sansone</h4>
-						<h5 class="light">Appassionato di programmazione e tecnologia, Community Manager di Codemotion, credo nella forza delle Persone.<br/>
-							<a href="https://twitter.com/innosans">@innosans</a> - <a href="https://www.linkedin.com/in/innosans">LinkedIn</a>
-						</h5>
-					</div>
-					<div class="col-lg-6">
-						<img class="img-circle img-team" src="img/mara.png" alt="Mara ">
-						<h4 class="team">Mara Marzocchi</h4>
-						<h5 class="light">
-							I believe in code and good people. Real animal lover. Co-Founder of Codemotion and the rest is history :-)<br/>
-							<a href="https://twitter.com/maraexceptioon ">@maraexceptioon</a>
-						</h5>
-					</div>
-				</div>
-				<div class="col-lg-12">
-					<div class="col-lg-6">
-						<img class="img-circle img-team" src="img/michel.png" alt="Michel Murabito">
-						<h4 class="team">Michel Murabito</h4>
-						<h5 class="light">
-							Nerd T-shirt collector, Web Dev, Cinephile, music listener. Dev Community addict and open source lover!<br/>
-							<a href="https://twitter.com/michelmurabito">@michelmurabito</a>
-						</h5>
-					</div>
-					<!--<div class="col-lg-6">
-						<img class="img-circle img-team" src="img/nicolo.png" alt="Nicolò ">
-						<h4 class="team">Nicolò Carandini</h4>
-						<h5 class="light">
-							Co-fondatore e Community Leader di DomusDotNet e OpenDomus, Open Software lover, Community Dinners fanboy.<br/>
-							<a href="https://twitter.com/TPCWare">@TPCWare</a>
-						</h5>
-					</div>
-				</div>-->
-				
-					<div class="col-lg-6">
-						<img class="img-circle img-team" src="img/stefano.png" alt="Stefano Ottaviani">
-						<h4 class="team">Stefano Ottaviani</h4>
-						<h5 class="light">
-							Co-fondatore della community DevMarche, appassionato al mondo dello sviluppo software in generale<br/>
-							<a href="https://twitter.com/ste8">@ste8</a>
-						</h5>
-					</div>
-				</div>
-			</div>
-				<div class="col-lg-12">
-					<h3>Ulteriori Informazioni</h3>
-					<h5 style="text-align:left;">
-						CLSxItaly è quasi totalmente autofinanziato, e ci teniamo ad essere trasparenti, per questo abbiamo un budget pubblico. Qui puoi consultare il <a target="_blank" href="https://docs.google.com/spreadsheets/d/1hsBEtY57FA1VofOme9jNgB1Im2pQejuNSlFG8I5QHL4/edit#gid=0">budget pubblico di Roma 2017</a>
-					</h5>
-					<h5 style="text-align:left;">
-						Location: <b>LUISS ENLABS</b>, Roma
-					</h5>
-					<h5 style="text-align:left;">
-						Sponsor:
-					</h5>
-					<div class="col-lg-12">
-						<div class="col-lg-4" style="height:60px;">
-							<a href="https://google.com"><img class="img-responsive" src="img/google_logo.png" alt="Google"></a>
-						</div>
-						<div class="col-lg-4" style="height:60px;">
-							<a href="http://www.codemotionworld.com"><img class="img-responsive" src="img/codemotion_logo.png" alt="Codemotion"></a>
-						</div>
-						<!--<div class="col-lg-4" style="height:60px;">
-							<a href="http://www.grusp.org/"><img class="img-responsive" src="img/grusp_logo.png" alt="GRUSP"></a>
-						</div>
-						<div class="col-lg-4" style="height:60px;">
-							<a href="http://italia.campus-party.org/"><img class="img-responsive" src="img/campus_party.png" alt="Campus Party"></a>
-						</div>-->
-					</div>
-				</div>
-			</div>
-		</section>
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <!-- ========== STYLESHEETS ========== -->
+    <!-- Bootstrap CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Fonts Icon CSS -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono|Karla" rel="stylesheet">
+    <!-- Fonts Icon CSS -->
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/et-line.css" rel="stylesheet">
+    <link href="assets/css/ionicons.min.css" rel="stylesheet">
+    
+    <!-- Carousel CSS -->
+    <link href="assets/css/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/css/owl.theme.default.min.css" rel="stylesheet">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+    <div class="loader">
+        <div class="loader-outter"></div>
+        <div class="loader-inner"></div>
+    </div>
+
+    <!--header start here -->
+    <header class="header navbar fixed-top navbar-expand-md">
+        <div class="container">
+            <a class="navbar-brand logo" href="index.html">
+                <img src="assets/img/logo.png" alt="Evento"/>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#headernav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="lnr lnr-text-align-right"></span>
+            </button>
+            <div class="collapse navbar-collapse flex-sm-row-reverse" id="headernav">
+                <ul class=" nav navbar-nav menu">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#About">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#Agenda">Agenda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#Speakers">Speakers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#FAQ">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#Dove">Dove</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#Team">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#Sponsor">Sponsor</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="edizioni.html">Edizioni Prec.</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!--header end here-->
+
+    <!--page title section-->
+    <section class="inner_cover parallax-window" data-parallax="scroll" data-image-src="assets/img/bg/slider2.png">
+        <div class=""></div>
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-12">
+                    <div class="inner_cover_content">
+                        <h3>
+                         Edizioni precedenti
+                     </h3>
+                 </div>
+             </div>
+         </div>
+
+         <div class="breadcrumbs">
+            <ul>
+                <li><a data-toggle="tab" href="#prima">Prima</a>  |   </li>
+                <li><a data-toggle="tab" href="#seconda">Seconda</a>  |   </li>
+                <li><a data-toggle="tab" href="#terza">Terza</a>  |   </li>
+                <li class="active"><a data-toggle="tab" href="#quarta">Quarta</a></li>
+            </ul>
+
+        </div>
+
+    </div>
+
+</section>
+<!--page title section end-->
 
 
 
 
-		<section id="terza-edizione" class="container content-section text-center">
-			<h3>3° Edizione - 6 Maggio 2017 - Milano</h3>
-			<div class="col-lg-6">
-				<h3>Agenda</h3>
-				<table class="table text-left">
-					<tbody>
-						<tr>
-							<th>08:45</th>
-							<td colspan="2"><em>Registrazione</em></td>
-						</tr>
-						<tr>
-							<th>09:30</th>
-							<td>Apertura e presentazioni
-								<br />
-							</td>
-							<td></td>
-						</tr>
-						<tr>
-							<th></th>
-							<td>
-								<b>	Why meet ups matter </b>
-								<br />Tutto può essere trovato online e grazie a internet possiamo comunicare con persone in ogni angolo del pianeta. Per quali motivi quindi questi anacronistici incontri sono sempre più importanti? Capiamo insieme quali sono i loro punti di forza e in che modo possono migliorare un'intera community.
-								<br />
-							</td>
-							<td>
-								Speaker:
-								<br /><b><a href="https://twitter.com/MakhBeth" target="_blank">Davide Di Pumpo</a></b>
-								<br />
-							</td>
-						</tr>
-						<tr>
-							<th></th>
-							<td>
-								<b>Seek diversity, create inclusion </b>
-								<br />Consigli pratici su come organizzare eventi inclusivi e accessibili per la tua community, partendo dall’esperienza di Girls in Tech Italy. Dai gadget alla scelta della location, dal menù alla comunicazione: come possiamo organizzare un evento che consenta a tutti, indipendentemente dalle specifiche esigenze, la possibilità di partecipare attivamente?
-								<br />
-							</td>
-							<td>
-								Speakers:
-								<br /><b><a href="https://twitter.com/ChiaraBrughera" target="_blank">Chiara Brughera</a></b>
-								<br />Community coordinator at Talent Garden & Girls in Tech Italy community lead
-							</td>
-						</tr>
-						<tr>
-							<th></th>
-							<td>
-								<b>Reinventing Antifragile Communities </b>
-								<br />Apprenderai una visione che ti farà puntare il focus sulla felicità, al fine di creare una squadra coesa e propositiva all'interno della tua community. Attraverserai la consapevolezza delle competenze trasversali necessarie per affrontare proattivamente le vicissitudini della community. Renderai iterative ed incrementali le attività che la community deve svolgere per ottenere i suoi obiettivi.
-								<br />
-							</td>
-							<td>
-								Speaker:
-								<br /><b><a href="https://twitter.com/4everyoung" taget="_blank">Adriano Gasparri</a></b>
-								<br />Consulente e Formatore Strategico.
-							</td>
-						</tr>
-						<tr>
-							<th></th>
-							<td>
-								<b>An Open Leadership Training to improve community awareness </b>
-								<br />The Open Leadership Training is an opportunity to promote the best practise and give some tools helpful to know the basis needed to create e a Project followed by a community and create connection between the community leader of tomorrow. We think that spread this philosophy increase the knowledge about the opensource and give a new fuel at our movements. Promote cross connections among community members is necessary to maintain our communities healthy and focused around the people.
-								<br />
-							</td>
-							<td>
-								Speaker:
-								<br /><b><a href="https://twitter.com/edovio" taget="_blank">Edoardo Viola</a></b>
-								<br />
-							</td>
-						</tr>
-						<tr>
-							<th></th>
-							<td>
-								<b>Migliorare la qualità degli eventi: dry-run "obbligatori", e altri strumenti</b>
-								<br />Moltissimi eventi community sono organizzati grazie al lavoro di "volontariato" dei community lead, degli speaker, di chi aiuta con la promozione, di chi offre la sala, etc... Non sempre però gli eventi hanno la qualità che i partecipanti "meritano". In questa sessione vedremo alcuni accorgimenti per evitare i problemi più ricorrenti e fornire ai partecipanti la migliore esperienza possibile!
-								<br />
-							</td>
-							<td>
-								Speaker:
-								<br /><b><a href="https://twitter.com/_geniodelmale" taget="_blank">Lorenzo Barbieri</a></b>
-								<br />Cloud Wizard at Microsoft, fondatore di Macelleria Informatica
-							</td>
-						</tr>
-						<tr>
-							<th></th>
-							<td>
-								<b>Community's challenges</b>
-								<br />My experiences leading a community in Greece, while being half Italian, half Greek and having spent almost all my life travelling. Challenges, mindsets, problems and solutions differ from country to country....and from time to time.
-								<br />
-							</td>
-							<td>
-								Speaker:
-								<br /><b><a href="https://twitter.com/ptzinis" taget="_blank">Panayotis Tzinis</a></b>
-								<br />Technology Intelligence - GDE on Product Strategy - X-Lab tech Lead at Moonshot Lab
-							</td>
-						</tr>
-						<tr>
-							<th>13:15</th>
-							<td><em>Pranzo</em></td>
-							<td></td>
-						</tr>
-						<tr>
-							<th>14:15</th>
-							<td colspan="2">Unconference</td>
-						</tr>
-						<tr>
-							<th>17:00</th>
-							<td>Chiusura e aperitivo</td>
-							<td></td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-			<div class="col-lg-6">
-				<div class="col-lg-12">
-					<h3>Team - Milano 2017</h3>
-					<div class="col-lg-12">
-					<div class="col-lg-6">
-						<img class="img-circle img-team" src="img/alfredo.png" alt="Alfredo Morresi">
-						<h4 class="team">Alfredo Morresi</h4>
-						<h5 class="light">Tiramisù lover, Android dev, free software fan. Googler, helping dev communities in Italy and Europe<br/>
-							<a href="https://twitter.com/rainbowbreeze">@rainbowbreeze</a> - <a href="https://www.linkedin.com/in/alfredomorresi">LinkedIn</a>
-						</h5>
-					</div>
-					<div class="col-lg-6">
-						<img class="img-circle img-team" src="img/alessio.png" alt="Alessio Fattorini">
-						<h4 class="team">Alessio Fattorini</h4>
-						<h5 class="light">Prosecco Evangelist, NethServer Community Manager, Open Source Enthusiast, Linux Sysadmin, Dad.<br/>
-							<a href="https://twitter.com/ale_fattorini">@ale_fattorini</a>
-						</h5>
-					</div>
-					</div>
-					<div class="col-lg-12">
-					<div class="col-lg-6">
-						<img class="img-circle img-team" src="img/azzurra.png" alt="Azzurra Ragone">
-						<h4 class="team">Azzurra Ragone</h4>
-						<h5 class="light">Community Specialist, Soccer player, I believe in diversity there is beauty and strength<br/>
-							<a href="https://twitter.com/azzurraragone">@azzurraragone</a>
-						</h5>
-					</div>
-					<div class="col-lg-6">
-						<img class="img-circle img-team" src="img/chiara.png" alt="Chiara Brughera">
-						<h4 class="team">Chiara Brughera</h4>
-						<h5 class="light">Community coordinator at Talent Garden & Girls in Tech Italy community lead<br/>
-							<a href="https://twitter.com/ChiaraBrughera">@ChiaraBrughera</a>
-						</h5>
-					</div>
-				</div>
-				<div class="col-lg-12">
-					<div class="col-lg-6">
-						<img class="img-circle img-team" src="img/enzo.png" alt="Innocenzo Sansone">
-						<h4 class="team">Innocenzo Sansone</h4>
-						<h5 class="light">Appassionato di programmazione e tecnologia, Community Manager di Codemotion, credo nella forza delle Persone.<br/>
-							<a href="https://twitter.com/innosans">@innosans</a> - <a href="https://www.linkedin.com/in/innosans">LinkedIn</a>
-						</h5>
-					</div>
-					<div class="col-lg-6">
-						<img class="img-circle img-team" src="img/mara.png" alt="Mara ">
-						<h4 class="team">Mara Marzocchi</h4>
-						<h5 class="light">
-							I believe in code and good people. Real animal lover. Co-Founder of Codemotion and the rest is history :-)<br/>
-							<a href="https://twitter.com/maraexceptioon ">@maraexceptioon</a>
-						</h5>
-					</div>
-				</div>
-				<div class="col-lg-12">
-					<div class="col-lg-6">
-						<img class="img-circle img-team" src="img/michel.png" alt="Michel Murabito">
-						<h4 class="team">Michel Murabito</h4>
-						<h5 class="light">
-							Nerd T-shirt collector, Web Dev, Cinephile, music listener. Dev Community addict and open source lover!<br/>
-							<a href="https://twitter.com/michelmurabito">@michelmurabito</a>
-						</h5>
-					</div>
-					<div class="col-lg-6">
-						<img class="img-circle img-team" src="img/nicolo.png" alt="Nicolò ">
-						<h4 class="team">Nicolò Carandini</h4>
-						<h5 class="light">
-							Co-fondatore e Community Leader di DomusDotNet e OpenDomus, Open Software lover, Community Dinners fanboy.<br/>
-							<a href="https://twitter.com/TPCWare">@TPCWare</a>
-						</h5>
-					</div>
-				</div>
-				<div class="col-lg-12">
-					<div class="col-lg-6">
-						<img class="img-circle img-team" src="img/stefano.png" alt="Stefano Ottaviani">
-						<h4 class="team">Stefano Ottaviani</h4>
-						<h5 class="light">
-							Co-fondatore della community DevMarche, appassionato al mondo dello sviluppo software in generale<br/>
-							<a href="https://twitter.com/ste8">@ste8</a>
-						</h5>
-					</div>
-				</div>
-			</div>
-				<div class="col-lg-12">
-					<h3>Ulteriori Informazioni</h3>
-					<h5 style="text-align:left;">
-						CLSxItaly è quasi totalmente autofinanziato, e ci teniamo ad essere trasparenti, per questo abbiamo un budget pubblico. Qui puoi consultare il <a href="https://goo.gl/R55kKC">budget pubblico di Milano 2017</a>
-					</h5>
-					<h5 style="text-align:left;">
-						Location: <b>Talent Garden Milano Calabiana</b>, Milano
-					</h5>
-					<h5 style="text-align:left;">
-						Sponsor:
-					</h5>
-					<div class="col-lg-12">
-						<div class="col-lg-4" style="height:60px;">
-							<a href="https://google.com"><img class="img-responsive" src="img/google_logo.png" alt="Google"></a>
-						</div>
-						<div class="col-lg-4" style="height:60px;">
-							<a href="http://www.codemotionworld.com"><img class="img-responsive" src="img/codemotion_logo.png" alt="Codemotion"></a>
-						</div>
-						<div class="col-lg-4" style="height:60px;">
-							<a href="http://www.grusp.org/"><img class="img-responsive" src="img/grusp_logo.png" alt="GRUSP"></a>
-						</div>
-						<div class="col-lg-4" style="height:60px;">
-							<a href="http://italia.campus-party.org/"><img class="img-responsive" src="img/campus_party.png" alt="Campus Party"></a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section id="seconda-edizione" class="container content-section text-center">
-			<h3>2° Edizione - 24 Settembre 2016 - Roma</h3>
-			<div class="col-lg-6">
-				<h3>Agenda</h3>
-				<table class="table text-left">
-					<tbody>
-						<tr>
-							<th>08:45</th>
-							<td colspan="2"><em>Registrazione</em></td>
-						</tr>
-						<tr>
-							<th>09:30</th>
-							<td>Apertura e presentazioni
-								<br /><a href="https://vimeo.com/184587904">Video</a>
-							</td>
-							<td></td>
-						</tr>
-						<tr>
-							<th></th>
-							<td>
-								<b>Metriche per Zombie Communities: come "iniettare vita" in tribù di morti viventi</b>
-								<br />4 iscritti al meetup. Nessun commento al post. 1 solo speaker (che poi è tuo cugino). Se sai di cosa sto parlando allora significa che conosci la stretta allo stomaco che si prova quando la tua comminity è silenziosa quanto un cimitero. Ma è davvero la fine? Oppure un community leader può diventare il Dottor Frankenstein di turno e ribaltare la situazione? In questo talk vedremo come basarci sulle metriche per analizzare cosa non sta funzionando nella tua tribù e alcuni consigli azionabili per "resuscitare" l'entusiasmo dei suoi membri.
-								<br /><a href="https://vimeo.com/184422957">Video</a> - <a href="https://www.slideshare.net/dotnetmarche/metriche-per-zombie-communities-come-iniettare-vita-in-trib-di-morti-viventi-luca-barboni">Slide</a>
-							</td>
-							<td>
-								Speaker:
-								<br /><b><a href="https://twitter.com/luca_barb89" target="_blank">Luca Barboni</a></b>
-								<br />(Growth Hound)
-							</td>
-						</tr>
-						<tr>
-							<th></th>
-							<td>
-								<b>Welcome Coc! 10 verità e bugie sull'inclusività</b>
-								<br />Celebrate Diversity! Il Codice di Condotta è così importante all'estero quasi quanto è sconosciuto in Italia. Partendo da una analisi di case studies mostreremo che cos'è il Coc e insieme capiremo l'utilità di avere regole chiare e condivise per aumentare la consapevolezza, l'inclusività e garantire la Diversity.
-								<br /><a href="https://vimeo.com/184415976">Video</a> - <a href="https://www.slideshare.net/FlaviaWeisghizzi/welcome-coc-10-verit-e-bugie-sul-codice-di-condotta">Slide</a>
-							</td>
-							<td>
-								Speakers:
-								<br /><b><a href="https://twitter.com/EPietrafesa" target="_blank">Emma Pietrafesa</a></b>
-								<br />(Rete Wister)
-								<br /><b><a href="https://twitter.com/JustDeindre" target="_blank">Flavia Weisghizzi</a></b>
-								<br />(Codemotion)
-							</td>
-						</tr>
-						<tr>
-							<th></th>
-							<td>
-								<b>Coaching per community open source</b>
-								<br />Il coaching può migliorare il lavoro di gruppo e aiutare i vari membri del team a partecipare alle sue scelte ed attività. In ambito open source, una community con tanti volontari senza partecipazione é morta, ma la situazione può cambiare applicando questo approccio.
-								<br /><a href="https://vimeo.com/184594005">Video</a> - <a href="https://mte90.github.io/Talk-Coaching/">Slide</a>
-							</td>
-							<td>
-								Speaker:
-								<br /><b><a href="https://twitter.com/Mte90Net" taget="_blank">Daniele "Mte90" Scasciafratte</a></b>
-								<br />(Mozilla)
-							</td>
-						</tr>
-						<tr>
-							<th></th>
-							<td>
-								<b>Dove c'è Community, c'è Casa.</b>
-								<br />Strategie per mantenere la vostra community attiva ed una cultura che faccia sentire accolti i suoi membri
-								<br /><a href="https://vimeo.com/184599361">Video</a> - <a href="https://www.slideshare.net/alessiofattorini/where-theres-community-theres-home">Slide</a>
-							</td>
-							<td>
-								Speaker:
-								<br /><b><a href="https://twitter.com/ale_fattorini" taget="_blank">Alessio Fattorini</a></b>
-								<br />(NethServer)
-							</td>
-						</tr>
-						<tr>
-							<th></th>
-							<td>
-								<b>Creare una community dal basso ed arrivare ad un'azienda milionaria</b>
-								<br />Come è nata l'esperienza della community romana di Host e come siamo riusciti ad essere riconosciuti da Airbnb. Cosa stiamo imparando, cosa funziona, gli errori da non fare.
-								<br /><a href="https://vimeo.com/184587888">Video</a> - <a href="https://www.slideshare.net/dotnetmarche/creare-una-community-dal-basso-ed-arrivare-ad-unazienda-milionaria-emanuela-marino">Slide</a>
-							</td>
-							<td>
-								Speaker:
-								<br /><b><a href="https://twitter.com/lakshmiem" taget="_blank">Emanuela Marino</a></b>
-								<br />(Community host Roma)
-							</td>
-						</tr>
-						<tr>
-							<th></th>
-							<td>
-								<b>Essere Community</b>
-								<br />Dai gruppi Facebook, ai canali Slack fino ai meetup sul territorio: tutto è community.
-								Cosa rende alcune di queste un successo? Qual è il segreto per diventare un punto di riferimento? E soprattutto: che cos'è veramente una community?
-								Queste sono alcune delle domande che hanno dato vita a Milano JS, Italia JS e JS Girls.
-								<br /><a href="https://vimeo.com/184587892">Video</a> - <a href="https://docs.google.com/presentation/d/1U15yGcMfJZrENF93fHVhG3nbDtXZeveDh8r6P2aqbvA/pub?slide=id.p">Slide</a>
-							</td>
-							<td>
-								Speaker:
-								<br /><b><a href="https://twitter.com/granze" taget="_blank">Maurizio Mangione</a></b>
-								<br />
-							</td>
-						</tr>
-						<tr>
-							<th>13:15</th>
-							<td><em>Pranzo</em></td>
-							<td></td>
-						</tr>
-						<tr>
-							<th>14:15</th>
-							<td colspan="2">Unconference</td>
-						</tr>
-						<tr>
-							<th>17:00</th>
-							<td>Chiusura e aperitivo</td>
-							<td></td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-			<div class="col-lg-6">
-				<div class="col-lg-12">
-					<h3>Team - Roma 2016</h3>
-					<div class="col-lg-6">
-						<img class="img-circle img-team" src="img/alfredo.png" alt="Alfredo Morresi">
-						<h4 class="team">Alfredo Morresi</h4>
-						<h5 class="light">Tiramisù lover, Android dev, free software fan. Googler, helping dev communities in Italy and Europe<br/>
-							<a href="https://twitter.com/rainbowbreeze">@rainbowbreeze</a> - <a href="https://www.linkedin.com/in/alfredomorresi">LinkedIn</a>
-						</h5>
-					</div>
-					<div class="col-lg-6">
-						<img class="img-circle img-team" src="img/alessio.png" alt="Alessio Fattorini">
-						<h4 class="team">Alessio Fattorini</h4>
-						<h5 class="light">Prosecco Evangelist, NethServer Community Manager, Open Source Enthusiast, Linux Sysadmin, Dad.<br/>
-							<a href="https://twitter.com/ale_fattorini">@ale_fattorini</a>
-						</h5>
-					</div>
-					<div class="col-lg-6">
-						<img class="img-circle img-team" src="img/mara.png" alt="Mara ">
-						<h4 class="team">Mara Marzocchi</h4>
-						<h5 class="light">
-							I believe in code and good people. Real animal lover. Co-Founder of Codemotion and the rest is history :-)<br/>
-							<a href="https://twitter.com/maraexceptioon ">@maraexceptioon</a>
-						</h5>
-					</div>
-					<div class="col-lg-6">
-						<img class="img-circle img-team" src="img/michel.png" alt="Michel Murabito">
-						<h4 class="team">Michel Murabito</h4>
-						<h5 class="light">
-							Nerd T-shirt collector, Web Dev, Cinephile, music listener. Dev Community addict and open source lover!<br/>
-							<a href="https://twitter.com/michelmurabito">@michelmurabito</a>
-						</h5>
-					</div>
-					<div class="col-lg-6">
-						<img class="img-circle img-team" src="img/nicolo.png" alt="Nicolò ">
-						<h4 class="team">Nicolò Carandini</h4>
-						<h5 class="light">
-							Co-fondatore e Community Leader di DomusDotNet e OpenDomus, Open Software lover, Community Dinners fanboy.<br/>
-							<a href="https://twitter.com/TPCWare">@TPCWare</a>
-						</h5>
-					</div>
-					<div class="col-lg-6">
-						<img class="img-circle img-team" src="img/stefano.png" alt="Stefano Ottaviani">
-						<h4 class="team">Stefano Ottaviani</h4>
-						<h5 class="light">
-							Co-fondatore della community DevMarche, appassionato al mondo dello sviluppo software in generale<br/>
-							<a href="https://twitter.com/ste8">@ste8</a>
-						</h5>
-					</div>
-				</div>
-				<div class="col-lg-12">
-					<h3>Ulteriori Informazioni</h3>
-					<h5 style="text-align:left;">
-						CLSxItaly è quasi totalmente autofinanziato, e ci teniamo ad essere trasparenti, per questo abbiamo un budget pubblico. Qui puoi consultare il <a href="https://goo.gl/393o0O">budget pubblico di Roma 2016</a>
-					</h5>
-					<h5 style="text-align:left;">
-						Location: <b>LUISS ENLABS</b>, Roma
-					</h5>
-					<h5 style="text-align:left;">
-						Sponsor:
-					</h5>
-					<div class="col-lg-12">
-						<div class="col-lg-4" style="height:60px;">
-							<a href="https://google.com"><img class="img-responsive" src="img/google_logo.png" alt="Google"></a>
-						</div>
-						<div class="col-lg-4" style="height:60px;">
-							<a href="http://www.codemotionworld.com"><img class="img-responsive" src="img/codemotion_logo.png" alt="Codemotion"></a>
-						</div>
-						<div class="col-lg-4" style="height:60px;">
-							<a href="https://www.microsoft.com/"><img class="img-responsive" src="img/microsoft.png" alt="Microsoft"></a>
-						</div>
-						<div class="col-lg-4" style="height:60px;">
-							<a href="http://lventuregroup.com/"><img class="img-responsive" src="img/lventure.png" alt="LVenture Group"></a>
-						</div>
-						<div class="col-lg-4" style="height:60px;">
-							<a href="https://www.ibm.com"><img class="img-responsive" src="img/IBM.PLATINUM.jpg" alt="IBM"></a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section id="prima-edizione" class="container content-section text-center">
-			<h3>1° Edizione - 27 Febbraio 2016 - Milano</h3>
-			<div class="col-lg-6">
-				<h3>Agenda</h3>
-				<table class="table text-left">
-					<tbody>
-						<tr>
-							<th>08:45</th>
-							<td colspan="2">Registrazione</td>
-						</tr>
-						<tr>
-							<th>09:15</th>
-							<td>Apertura
-								<br/><a href="https://vimeo.com/157033867">Video</a>
-							</td>
-							<td></td>
-						</tr>
-						<tr>
-							<th>10:00</th>
-							<td>
-								<em>Come far crescere una community da 0, senza perdersi qualcuno per strada!</em><br/>
-								Cosa ho imparato nel creare una community online da nulla fino a 2k posts/mese in soli 6 mesi: consigli pronti per l'uso, cosa funziona, cosa evitare
-								<br/><a href="https://www.slideshare.net/mobile/alessiofattorini/come-far-crescere-una-community-da-0-senza-perdersi-qualcuno-per-strada">Slide</a> - <a href="https://vimeo.com/157056709">Video</a>
-							</td>
-							<td><a href="https://twitter.com/ale_fattorini">Alessio Fattorini</a></td>
-						</tr>
-						<tr>
-							<th>10:30</th>
-							<td>
-								<em>Diversity: come rendere la tua community più ricca e inclusiva</em><br/>
-								Valorizzare la diversity nella community e cercare di essere inclusivi è un elemento chiave per la sua crescita. Come perseguire questo obiettivo, quali gli ostacoli e le azioni utili da mettere in campo
-								<br/><a href="">Slide</a> - <a href="https://vimeo.com/157116662">Video</a>
-							</td>
-							<td><a href="https://it.linkedin.com/in/azzurraragone">Azzurra Ragone</a></td>
-						</tr>
-						<tr>
-							<th>11:00</th>
-							<td colspan="2">Coffee break</td>
-						</tr>
-						<tr>
-							<th>11:30</th>
-							<td>
-								<em>Open Development Analytics, because you can't improve what you can't measure</em><br/>
-								Communities are driven by transparency, participation and collaboration. But how we could manage communities based on data, facts and not opinions. We will review different types of metrics to take into account
-								<br/><a href="https://speakerdeck.com/bitergia/open-development-analytics-talk-for-clsxitaliy">Slide</a> - <a href="https://vimeo.com/157143443">Video</a>
-							</td>
-							<td><a href="https://twitter.com/jsmanrique">José Manrique López de la Fuente</a></td>
-						</tr>
-						<tr>
-							<th>12:00</th>
-							<td>
-								<em>Tool e strumenti per far crescere la community</em><br/>
-								Meetup, WordCamp, Contributor Day: la nostra community si incontra spesso dal vivo. Quali strumenti usiamo per coordinarci e cosa facciamo per coinvolgere sempre più persone a partecipare attivamente
-								<br/><a href="https://www.slideshare.net/meetthecohens/wordpress-community-tips-tricks-tools">Slide</a> - <a href="https://vimeo.com/157174805">Video</a>
-							</td>
-							<td><a href="http://francescamarano.com/">Francesca Marano</a></td>
-						</tr>
-						<tr>
-							<th>12:30</th>
-							<td>
-								<em>Le meta-community: quando l'unione fa la forza</em><br/>
-								Il percorso di MilanoTechScene e DevMarche, due "aggregatori" di community locali: perchè e come si sono formati, i benefici ottenuti e le sfide ancora da affrontare
-								<br/><a href="https://www.slideshare.net/steott/le-metacommunity-quando-lunione-fa-la-forza">Slide</a> - <a href="https://vimeo.com/157248198">Video</a>
-							</td>
-							<td><a href="https://twitter.com/ildella">Daniele Dellafiore</a> e <a href="https://twitter.com/ste8">Stefano Ottaviani</a></td>
-						</tr>
-						<tr>
-							<th>13:00</th>
-							<td colspan="2">Pranzo</td>
-						</tr>
-						<tr>
-							<th>14:00</th>
-							<td><em>Unconference</em> set up</td>
-							<td></td>
-						</tr>
-						<tr>
-							<th>14:30</th>
-							<td colspan="2"><em>Unconference</em></td>
-						</tr>
-						<tr>
-							<th>17:30</th>
-							<td>Chiusura</td>
-							<td></td>
-						</tr>
-						<tr>
-							<th>18:30</th>
-							<td colspan="2"><em lang="en">Community Party</em></td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-			<div class="col-lg-6">
-				<div class="col-lg-12">
-					<h3>Team - Milano 2016</h3>
-					<div class="col-lg-6">
-						<img class="img-circle img-team" src="img/alfredo.png" alt="Alfredo Morresi">
-						<h4 class="team">Alfredo Morresi</h4>
-						<h5 class="light">Tiramisù lover, Android dev, free software fan. Googler, helping dev communities in Italy and Europe<br/>
-							<a href="https://twitter.com/rainbowbreeze">@rainbowbreeze</a> - <a href="https://www.linkedin.com/in/alfredomorresi">LinkedIn</a>
-						</h5>
-					</div>
-					<div class="col-lg-6">
-						<img class="img-circle img-team" src="img/alessio.png" alt="Alessio Fattorini">
-						<h4 class="team">Alessio Fattorini</h4>
-						<h5 class="light">Prosecco Evangelist, NethServer Community Manager, Open Source Enthusiast, Linux Sysadmin, Dad.<br/>
-							<a href="https://twitter.com/ale_fattorini">@ale_fattorini</a>
-						</h5>
-					</div>
-					<div class="col-lg-6">
-						<img class="img-circle img-team" src="img/michel.png" alt="Michel Murabito">
-						<h4 class="team">Michel Murabito</h4>
-						<h5 class="light">
-							Nerd T-shirt collector, Web Dev, Cinephile, music listener. Dev Community addict and open source lover!<br/>
-							<a href="https://twitter.com/michelmurabito">@michelmurabito</a>
-						</h5>
-					</div>
-					<div class="col-lg-6">
-						<img class="img-circle img-team" src="img/stefano.png" alt="Stefano Ottaviani">
-						<h4 class="team">Stefano Ottaviani</h4>
-						<h5 class="light">
-							Co-fondatore della community DevMarche, appassionato al mondo dello sviluppo software in generale<br/>
-							<a href="https://twitter.com/ste8">@ste8</a>
-						</h5>
-					</div>
-				</div>
-				<div class="col-lg-12">
-					<h3>Ulteriori Informazioni</h3>
-					<h5 style="text-align:left;">
-						CLSxItaly è quasi totalmente autofinanziato, e ci teniamo ad essere trasparenti, per questo abbiamo un budget pubblico. Qui puoi consultare il <a href="https://goo.gl/3aJUBh">budget pubblico di Milano 2016</a>
-					</h5>
-					<h5 style="text-align:left;">
-						Location: <b>TAG Calabiana</b>, Milano
-					</h5>
-					<h5 style="text-align:left;">
-						Sponsor:
-					</h5>
-					<div class="col-lg-12">
-						<div class="col-lg-6" style="height:60px; padding:10px; margin-top:15px;">
-							<a href="https://google.com"><img class="img-responsive" src="img/google_logo.png" alt="Google"></a>
-						</div>
-						<div class="col-lg-6" style="height:60px; padding:10px; margin-top:15px;">
-							<a href="http://www.codemotionworld.com"><img class="img-responsive" src="img/codemotion_logo.png" alt="Codemotion"></a>
-						</div>
-						<div class="col-lg-6" style="height:60px; padding:10px; margin-top:15px;">
-							<a href="http://www.grusp.org/"><img class="img-responsive" src="img/grusp_logo.png" alt="GRuSP"></a>
-						</div>
-						<div class="col-lg-6" style="height:60px; padding:10px; margin-top:15px;">
-							<a href="http://www.intel.com/"><img class="img-responsive" src="img/intel_logo.png" alt="Intel"></a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
+<!--events section -->
+<section class="pt100 pb100">
+    <div class="container tab-content ">
 
-		<!-- Footer -->
-		<footer class="container text-center">
-			<div class="row">
-				<div class="col-lg-12">
-					<p>Quest'opera è distribuita con Licenza <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribuzione - Condividi allo stesso modo 4.0 Internazionale</a>.</p>
-				</div>
-			</div>
-		</footer>
-		<!-- jQuery -->
-		<script src="js/jquery.js"></script>
-		<!-- Bootstrap Core JavaScript -->
-		<script src="js/bootstrap.min.js"></script>
-		<!-- Plugin JavaScript -->
-		<script src="js/jquery.easing.min.js"></script>
-		<!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
-		<!-- Custom Theme JavaScript -->
-		<script src="js/grayscale.js"></script>
-	</body>
-</html>
+        <!--prima-->
+
+        <div id="prima" class="event_box tab-pane">
+
+            <div class="event_info">
+                <div class="event_title">
+                    Prima
+                </div>
+                <div class="speakers">
+                    <strong>Speakers</strong>
+                    <span>Maria Smith,  Gabriel Hernandez,  Michael Williams</span>
+                </div>
+                <div class="event_date">
+                    February 14, 2018
+                </div>
+            </div>
+            <div class="event_word">
+                <div class="row justify-content-center">
+                    <div class="col-md-6 col-12">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rhoncus massa nec gravida tempus. Integer iaculis in lacus a sollicitudin. Ut hendrerit hendrerit nisl a accumsan. Pellentesque convallis consectetur tortor id placerat. Curabitur a pulvinar nunc. Maecenas laoreet finibus lectus, at volutpat ligula euismod.
+                    </div>
+                    <div class="col-md-6 col-12">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rhoncus massa nec gravida tempus. Integer iaculis in lacus a sollicitudin. Ut hendrerit hendrerit nisl a accumsan. Pellentesque convallis consectetur tortor id placerat. Curabitur a pulvinar nunc. Maecenas laoreet finibus lectus, at volutpat ligula euismod.
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="readmore_btn">read more</a>
+        </div>
+      <!--quarta-->
+
+
+<div id="quarta" class="event_box tab-pane active">
+
+    <div class="event_info">
+        <div class="event_title">
+            Quarta
+        </div>
+
+        <hr>
+        <div class="speakers">
+            <strong>08:45 - 09:30</strong>
+            <span>Registrazione</span>
+        </div>
+        <hr>
+    </div>
+
+    <div class="event_info">
+        <div class="speakers">
+            <strong>09:35 - 10:00</strong>
+            <span>Apertura e presentazione</span>
+        </div>
+        <hr>
+    </div>
+
+
+    <div class="event_info">
+        <div class="speakers">
+            <strong>10:00 - 10:30</strong>
+            <span class="event_date">Sense of Community: ciò che trasforma un gruppo in una community</span>
+        </div>
+
+    </div>
+    <div class="event_word">
+        <div class="row justify-content-center">
+            <div class="col-md-6 col-12">
+                Parleremo delle più recenti teorie nelle scienze sociali che descrivono quali sono gli elementi essenziali affinché un gruppo di persone, fisico o virtuale, si identifichi e riconosca come una vera community. Teoria e pratica per capire quali sono le leve che permettono ad un community builder di avere successo nel suo lavoro.
+            </div>
+            <div class="event_date col-md-6 col-12">
+                <a href="https://twitter.com/rainbowbreeze" target="_blank">Alfredo Morresi</a>
+                <br />Google
+            </div>
+
+        </div>
+    </div>
+    <hr>
+
+
+    <div class="event_info">
+        <div class="speakers">
+            <strong>10:30 - 11:00</strong>
+            <span class="event_date">Come far nascere un movimento e farlo crescere di 4 volte in un anno</span>
+        </div>
+
+    </div>
+    <div class="event_word">
+        <div class="row justify-content-center">
+            <div class="col-md-6 col-12">
+                Come nasce un movimento? E come far crescere e coltivare tale movimento? In trenta minuti la storia di Agile Talks, gruppo di meetup a Roma, che ora conta 320 membri.
+            </div>
+            <div class="event_date col-md-6 col-12">
+                <a href="https://twitter.com/omixxam" target="_blank">Massimo Sarti</a>
+                <br />Agile Talks
+            </div>
+
+        </div>
+    </div>
+    <hr>
+
+
+    <div class="event_info">
+        <div class="speakers">
+            <strong>11:00 - 11:30</strong>
+            <span class="event_date">Sani valori e aiuto reciproco: come far germogliare una community imprenditoriale</span>
+        </div>
+
+    </div>
+    <div class="event_word">
+        <div class="row justify-content-center">
+            <div class="col-md-6 col-12">
+               Il vero valore di una community emerge quando la community non è riunita ne online ne offline. I momenti di incontro sono dei community touch points dove si creano connessioni umane ancor più che lavorative ma il posto dove “the magic happens” è al di fuori di quei momenti. Noi di startup grind crediamo fortemente che un un’ecosistema imprenditoriale e di innovazione sano si basi essenzialmente su quelli che sono i nostri valori: HELP EACH OTHER, MAKE FRIENDS e GIVE (before TAKE). L’aiuto reciproco e disinteressato (bandiamo il "do ut des”) tra i membri della nostra community è la leva principale per accendere la miccia dell’innovazione e far crescere l’ecosistema da cui poi tutti potranno trarre beneficio
+           </div>
+           <div class="event_date col-md-6 col-12">
+            <a href="https://twitter.com/Magicalex23" target="_blank">Alessandro Petrich</a>
+            <br />Startup Grind
+        </div>
+
+    </div>
+</div>
+<hr>
+
+
+
+
+<div class="event_info">
+    <div class="speakers">
+        <strong>11:30 - 12:00</strong>
+        <span class="event_date">Community engagement per Matera 2019</span>
+    </div>
+
+</div>
+<div class="event_word">
+    <div class="row justify-content-center">
+        <div class="col-md-6 col-12">
+           L'esperienza della community dalla candidatura ad ECOC 2019 fino al 2020 e oltre: cosa cambia, i gruppi coinvolti, il ruolo del webteam. Cosa abbiamo imparato e cosa proponiamo per i prossimi anni.
+       </div>
+       <div class="event_date col-md-6 col-12">
+           <a href="https://twitter.com/Ida_Leone" target="_blank">Ida Leone</a><br>-<br><a href="https://twitter.com/raffapontra" target="_blank">Raffaella Pontrandolfi</a>
+           <br />Fondazione Matera 2019
+       </div>
+
+   </div>
+</div>
+<hr>
+
+
+<div class="event_info">
+    <div class="speakers">
+        <strong>12:00 - 12:30</strong>
+        <span class="event_date">Diventare un community leader in 10 mosse.</span>
+    </div>
+
+</div>
+<div class="event_word">
+    <div class="row justify-content-center">
+        <div class="col-md-6 col-12">
+           Sembra il titolo di un opuscolo dell'autogrill, ma in verità questi sono i "miei" 10 comandamenti del Community leader. Quali sono i passi da fare, come affrontarli? Quali sono le competenze irrinunciabili, quali gli errori da non fare? Un piccolo manuale di sopravvivenza per chi vuole "testardamente" diventare un community leader e non sa da dove iniziare.
+       </div>
+       <div class="event_date col-md-6 col-12">
+         <a href="https://twitter.com/ale_fattorini" target="_blank">Alessio Fattorini</a>
+         <br />NethServer
+     </div>
+
+ </div>
+</div>
+<hr>
+
+
+<div class="event_info">
+    <div class="speakers">
+        <strong>13:00 - 14:00</strong>
+        <span>Pranzo e Networking offerto dall'organizzazione</span>
+    </div>
+
+</div>
+<hr>
+
+
+
+<div class="event_info">
+    <div class="speakers">
+        <strong>14:00 - 16:00</strong>
+        <span>Unconference</span>
+    </div>
+
+</div>
+<div class="event_word">
+    <div class="row justify-content-center">
+        <div class="col-md-6 col-12">
+          Aperta e gestita da tutti i partecipanti, per cambiarsi opinioni, condividere successi ed insuccessi, confrontarsi, dar vita a nuove sinergie!
+      </div>
+      <div class="col-md-6 col-12">
+          
+      </div>
+
+    </div>
+
+</div>
+
+<hr>
+
+
+<div class="event_info">
+    <div class="speakers">
+        <strong>16:45 </strong>
+        <span>Closing e Aperitivo di Networking! </span>
+    </div>
+
+</div>
+
+<hr>
+</div>
+
+
+<!---fine--->
+
+        <!--terza-->
+
+        <div id="terza" class="event_box tab-pane fade">
+
+            <div class="event_info">
+                <div class="event_title">
+                    Terza
+                </div>
+                <div class="speakers">
+                    <strong>Speakers</strong>
+                    <span>Maria Smith,  Gabriel Hernandez,  Michael Williams</span>
+                </div>
+                <div class="event_date">
+                    February 14, 2018
+                </div>
+            </div>
+            <div class="event_word">
+                <div class="row justify-content-center">
+                    <div class="col-md-6 col-12">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rhoncus massa nec gravida tempus. Integer iaculis in lacus a sollicitudin. Ut hendrerit hendrerit nisl a accumsan. Pellentesque convallis consectetur tortor id placerat. Curabitur a pulvinar nunc. Maecenas laoreet finibus lectus, at volutpat ligula euismod.
+                    </div>
+                    <div class="col-md-6 col-12">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rhoncus massa nec gravida tempus. Integer iaculis in lacus a sollicitudin. Ut hendrerit hendrerit nisl a accumsan. Pellentesque convallis consectetur tortor id placerat. Curabitur a pulvinar nunc. Maecenas laoreet finibus lectus, at volutpat ligula euismod.
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="readmore_btn">read more</a>
+        </div>
+        <!--seconda-->
+
+        <div id="seconda" class="event_box tab-pane fade">
+
+            <div class="event_info">
+                <div class="event_title">
+                    Seconda
+                </div>
+                <div class="speakers">
+                    <strong>Speakers</strong>
+                    <span>Maria Smith,  Gabriel Hernandez,  Michael Williams</span>
+                </div>
+                <div class="event_date">
+                    February 14, 2018
+                </div>
+            </div>
+            <div class="event_word">
+                <div class="row justify-content-center">
+                    <div class="col-md-6 col-12">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rhoncus massa nec gravida tempus. Integer iaculis in lacus a sollicitudin. Ut hendrerit hendrerit nisl a accumsan. Pellentesque convallis consectetur tortor id placerat. Curabitur a pulvinar nunc. Maecenas laoreet finibus lectus, at volutpat ligula euismod.
+                    </div>
+                    <div class="col-md-6 col-12">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rhoncus massa nec gravida tempus. Integer iaculis in lacus a sollicitudin. Ut hendrerit hendrerit nisl a accumsan. Pellentesque convallis consectetur tortor id placerat. Curabitur a pulvinar nunc. Maecenas laoreet finibus lectus, at volutpat ligula euismod.
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="readmore_btn">read more</a>
+        </div>
+
+
+
+
+    </div>
+</section>
+
+<!--event section end -->
+
+
+
+
+
+<!--footer start -->
+<footer>
+    <div class="container">
+        <div class="row justify-content-center">
+
+            <div class="col-md-4 col-12">
+                <div class="footer_box">
+                    <div class="footer_header">
+                        <div class="footer_logo">
+                            <img src="assets/img/logo.png" alt="evento">
+                        </div>
+                    </div>
+                    <div class="footer_box_body">
+
+                        <ul class="footer_social">
+
+                            <li>
+                                <a target="_blank" href="https://twitter.com/ICMSummit"><i class="ion-social-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://www.facebook.com/groups/1298829493556359/"><i class="ion-social-facebook"></i></a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="col-12 col-md-8">
+                <div class="footer_box">
+                    <div class="footer_header">
+                        <h4 class="footer_title">
+                            Vuoi darci una mano, hai domande, idee, feedback?
+                        </h4>
+                    </div>
+                    <div class="footer_box_body">
+                        <div class="newsletter_form">
+
+                         <a href="mailto:icmsummit@gmail.com"> <button class="btn btn-rounded btn-block btn-primary">Contattaci</button></a>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+ </div>
+</footer>
+<div class="copyright_footer">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-12">
+                <p style="text-align: center;"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    Copyright &copy;<script>document.write(new Date().getFullYear());</script>  | This site is made by <a href="https://DEseip.com" target="_blank">DEseip</a>
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                </div>
+                <div class="col-12 col-md-6 ">
+
+                </div>
+            </div>
+        </div>
+        <!--footer end -->
+
+        <!-- jquery -->
+        <script src="assets/js/jquery.min.js"></script>
+        <!-- bootstrap -->
+        <script src="assets/js/popper.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/waypoints.min.js"></script>
+        <!--slick carousel -->
+        <script src="assets/js/owl.carousel.min.js"></script>
+        <!--parallax -->
+        <script src="assets/js/parallax.min.js"></script>
+        <!--Counter up -->
+        <script src="assets/js/jquery.counterup.min.js"></script>
+        <!--Counter down -->
+        <script src="assets/js/jquery.countdown.min.js"></script>
+        <!-- WOW JS -->
+        <script src="assets/js/wow.min.js"></script>
+        <!--map -->
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAuahgsm_qfH1F3iywCKzZNMdgsCfnjuUA"></script>
+        <!-- Custom js -->
+        <script src="assets/js/main.js"></script>
+    </body>
+    </html>
