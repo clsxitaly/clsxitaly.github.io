@@ -266,6 +266,7 @@ strong {
 }
 
 img {
+      width: 130px;
   max-width: 100%;
 }
 
@@ -1647,6 +1648,7 @@ header .logo {
 }
 header .logo img {
   float: left;
+      width: 130px;
   max-width: 160px;
   margin-right: 3px;
 }
