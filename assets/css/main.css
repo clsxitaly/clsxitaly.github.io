@@ -3172,3 +3172,56 @@ textarea.form-control {
 .accordion_card .card-body {
   font-size: 16px;
 }
+
+/* 
+Max width before this PARTICULAR table gets nasty
+This query will take effect for any screen smaller than 760px
+and also iPads specifically.*/
+
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+
+  table, thead, tbody,  td, tr { 
+    display: block; 
+    width: 90vw;
+  }
+
+ /*thead tr { 
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }*/
+  
+  tr { border: 1px solid #ccc; }
+  
+  td { 
+
+    border: none;
+    border-bottom: 1px solid #eee; 
+    position: relative;
+    padding-left: 50%; 
+  }
+  
+  td:before { 
+ 
+    position: absolute;
+   
+    top: 6px;
+    left: 6px;
+    width: 45%; 
+    padding-right: 10px; 
+    white-space: nowrap;
+  }
+.table.event_calender tbody td, .table.event_calender tbody th {
+  padding: 10px 15px;
+  border: 0;
+  vertical-align: top;
+  text-align: left;
+}
+.table.event_calender tbody {
+  background-color: #f0f2f6;
+  width: 90vw;
+}
+}
